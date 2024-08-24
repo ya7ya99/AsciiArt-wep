@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.PageTitle}}</title>
+    <link rel="stylesheet" href="../styles/errors.css">
+</head>
+<body>
+    <form action="/">
+       <div class="err">
+           <p id="nbr">{{.ErrCde}} </p>
+           <p id="txt">{{.Message}}</p>
+           <button id="home" href="/">Home</button>
+        </div>
+   </form>
+</body>
+</html>

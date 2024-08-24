@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/styles/home.css">    
+</head>
+<body>
+    <div class="barca">
+    <form action="/ascii-art" method="post">
+            <h3>Enter The Text</h3>
+            <textarea name="ljomla" id="simple" style="width: 100%;" maxlength="250" required></textarea><br>
+            <h3>Choose The Banner</h3>
+            <input type="radio" name="banner" value="standard" id="1" checked>
+            <label class="banner" for="1">Standard</label>
+            <input type="radio" name="banner" value="shadow" id="2">
+            <label class="banner" for="2">Shadow</label>
+            <input type="radio" name="banner" value="thinkertoy" id="3">
+            <label class="banner" for="3">Thinkertoy</label>
+            <br><br>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

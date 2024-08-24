@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: gold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    flex-direction: column;
+}
+.err{
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+#nbr{
+    font-size: 5em;
+    font-style:normal;
+}
+#txt{
+    font-size: 3em;
+    font-style: italic;
+}
+#home {
+    background-color: gold;
+    border-radius: 12px;
+    font-size: large;
+    transition: 0.7s;
+    box-shadow: 0px 0px 33px gold;
+}
+#home:hover {
+    cursor: progress; /* Change cursor to pointer */
+    transform:scale(1.1)
+  
+}
+#home:hover:active{
+    font-size: small;
+    background-color: rgba(250, 213, 4, 0.623);
+}
