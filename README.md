@@ -6,8 +6,6 @@
 - Max legth of the text is 2000 characters.
 
 ## Authors
-    - aouchcha
-    - maynaou
     - yakhaldy
 ## Usage
     to start the server you need to run the bash command 
